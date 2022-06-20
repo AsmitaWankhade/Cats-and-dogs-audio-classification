@@ -1,6 +1,6 @@
 # Cats-and-dogs-audio-classification
 
-##Steps:
+## Steps:
 #####1. Importing required libraries :
 numpy, pandas, librosa, tensorflow, sklearn , seaborn
 
