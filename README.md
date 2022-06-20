@@ -10,6 +10,7 @@ numpy, pandas, librosa, tensorflow, sklearn , seaborn
 MFCCs are the Mel Frequency Cepstral Coefficients. MFCC takes into account human perception for sensitivity at appropriate frequencies by converting the conventional frequency to Mel Scale, and are thus suitable for speech recognition tasks quite well.
 In audio pre-processing, Mel frequency is a representation of short term power spectrum of sound. Audio sample is converted to mel-
 freuency coefficients using : mel(f)=2595*log(1+f/700)
+These extracted features are used for training data using a deep network.
 
 ##### 4.Check if any null values are present. There are no null values in given dataset. Label encode the classes
 ##### 5. Build a neural network model. Compile and start the training.
